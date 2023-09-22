@@ -39640,7 +39640,7 @@ PrefabInstance:
     - target: {fileID: 1385185903634878575, guid: 19ad9870862d3d349909e3907e643916,
         type: 3}
       propertyPath: BoostSpeed
-      value: 25
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4627641342160291440, guid: 19ad9870862d3d349909e3907e643916,
         type: 3}

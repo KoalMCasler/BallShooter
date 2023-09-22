@@ -12,7 +12,7 @@ public class Booster : MonoBehaviour
         if(other.CompareTag("Ball"))
         {
             RB = other.GetComponent<Rigidbody>();
-            RB.AddForce(Vector3.forward * BoostSpeed, ForceMode.VelocityChange);
+            RB.AddForce(Vector3.up * BoostSpeed, ForceMode.VelocityChange);
         }
 
     }
