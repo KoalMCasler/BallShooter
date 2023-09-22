@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Booster : MonoBehaviour
+public class SlowStrip : MonoBehaviour
 {
     private Rigidbody RB;
     public int BoostSpeed;
@@ -12,7 +12,7 @@ public class Booster : MonoBehaviour
         if(other.CompareTag("Ball"))
         {
             RB = other.GetComponent<Rigidbody>();
-            RB.AddForce(Vector3.forward * BoostSpeed, ForceMode.VelocityChange);
+            RB.AddForce(Vector3.back * BoostSpeed, ForceMode.VelocityChange);
         }
 
     }
