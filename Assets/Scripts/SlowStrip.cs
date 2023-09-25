@@ -12,7 +12,7 @@ public class SlowStrip : MonoBehaviour
         if(other.CompareTag("Ball"))
         {
             RB = other.GetComponent<Rigidbody>();
-            RB.AddForce(Vector3.back * BoostSpeed, ForceMode.VelocityChange);
+            RB.AddForce(Vector3.down * BoostSpeed, ForceMode.VelocityChange);
         }
 
     }
