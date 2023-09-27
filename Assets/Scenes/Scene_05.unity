@@ -3460,6 +3460,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702706299011078
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &521841049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6742,7 +6743,7 @@ Transform:
   m_GameObject: {fileID: 862784482}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 1, z: -25.25}
+  m_LocalPosition: {x: -0.5, y: 1, z: -25.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6862,6 +6863,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702706299011080
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &862784489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11499,6 +11501,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702705614290945
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &1187948714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42541,6 +42544,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702705614290944
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &1742984245
 MonoBehaviour:
   m_ObjectHideFlags: 0
