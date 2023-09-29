@@ -220,14 +220,14 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.9607843, b: 0.8627451, a: 1}
+  m_Color: {r: 0.8962264, g: 0.7963773, b: 0.5467544, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 1
+    m_Type: 2
     m_Resolution: 2
     m_CustomResolution: -1
     m_Strength: 1
@@ -1077,6 +1077,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702584603901983
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &1881510564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18842,6 +18843,7 @@ MonoBehaviour:
     RefIds:
     - rid: 4921702584603901979
       type: {class: Cube, ns: UnityEngine.ProBuilder.Shapes, asm: Unity.ProBuilder}
+      data: 
 --- !u!114 &2062782203
 MonoBehaviour:
   m_ObjectHideFlags: 0
